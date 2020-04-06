@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.top {
+    background-color: #f4efd3;
+}
+
+.quiz {
+                
+    background-color: #e5dfdf;
+    font-size: 1.2em;
+    font-weight: 600;
+}
