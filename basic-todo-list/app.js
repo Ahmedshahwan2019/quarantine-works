@@ -1,18 +1,35 @@
-var text = prompt("What do you want to do");
-var list = [];
-while(text !== "quit") {
-  if(text === "new") {
-    var todo = prompt("Add a new todo!");
-    list.push(todo);
-    console.log("A NEW TODO ADDED TO THE LIST!");
-  } else if(text === "list") {
-    console.log("**********");
-    console.log(list);
-    console.log("**********");
-  } else if(text === "delete") {
-    var num = prompt("Enter the number of the todo you wish to delete.");
-    list.splice(num-1,1);
-  }
-var text = prompt("What do you want to do");
+let answer = prompt("What would like to do?");
+const list = [];
+
+while(answer !== "quit") {
+    if(answer === "new") {
+        addTodo();
+    } else if(answer === "list") {
+        listTodos();
+    } else if (answer === "delete") {
+        deleteTodo();
+    }
+    answer = prompt("What would like to do?");
 }
-console.log("You quit the app!");
+console.log("YOU QUIT THE APP!");
+
+//function decleration is hoisted
+function addTodo() {
+    const newTodo = prompt("Enter a new todo.")
+    list.push(newTodo);
+    console.log(newTodo + " added to the list.")
+}
+
+function listTodos() {
+    console.log("********");
+        list.forEach(function(item,index) {
+            console.log(`${index} : ${item}`)
+        })
+        console.log("********");
+}
+
+function deleteTodo() {
+    const num = prompt("Enter the index number of the todo to be deleted.")
+    list.splice(num,1);
+    console.log("Todo removed!")
+}
