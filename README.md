@@ -10,4 +10,4 @@ Playground and recap for JS
 8. Quiz App : https://obeka.github.io/quarantine-works/quiz-app/
 9. Todo List : https://obeka.github.io/quarantine-works/todo-list/
 
-The exercises are taken from Colt Steele, Angela Yu and the Net Ninja's Udemy Courses. 
+Some exercises are taken from Colt Steele, Angela Yu and the Net Ninja's Udemy Courses. 
