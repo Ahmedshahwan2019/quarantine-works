@@ -1,5 +1,5 @@
 # quarantine-works
-Playground and recap for JS
+Playground and recap for JS. Styling is not so important, the point in here to practice JS. Apps are built just for PC view.
 1. Basic Todo List : https://obeka.github.io/quarantine-works/basic-todo-list/
 2. Score Keeper : https://obeka.github.io/quarantine-works/score-keeper/
 3. Body Background Color Changer : https://obeka.github.io/quarantine-works/color-toggler-bg/
