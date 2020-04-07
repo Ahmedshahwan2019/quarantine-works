@@ -1,4 +1,4 @@
-# obeka-quarantine-works
+# quarantine-works
 Playground and recap for JS
 1. Basic Todo List : https://obeka.github.io/quarantine-works/basic-todo-list/
 2. Score Keeper : https://obeka.github.io/quarantine-works/score-keeper/
@@ -9,3 +9,5 @@ Playground and recap for JS
 7. Countdown timer : https://obeka.github.io/quarantine-works/countdown-timer/
 8. Quiz App : https://obeka.github.io/quarantine-works/quiz-app/
 9. Todo List : https://obeka.github.io/quarantine-works/todo-list/
+
+The exercises are taken from Colt Steele, Angela Yu and the Net Ninja's Udemy Courses. 
